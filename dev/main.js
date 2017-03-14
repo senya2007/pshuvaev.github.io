@@ -5,7 +5,7 @@ var copydir = require('copy-dir');
 var nunjucks = require('nunjucks')
 
 var path = "./";
-var outPath = "../";
+var outPath = "../out/";
 
 fs.readdir(path+"pages", function(err, items) {
 	rimraf(outPath, function(){
