@@ -1,0 +1,72 @@
+{% extends "parts/base.html" %}
+
+{% block body %}
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-2">
+				<div class="row">
+					<ul>
+						<li>
+							<span class="glyphicon glyphicon-envelope"></span>
+							ipshuvaev@gmail.com</li>
+						<li>
+							<span class="glyphicon glyphicon-phone"></span>
+							89042632377
+						</li>
+						<li> <a href="vk.ru/bla">vk.ru/bla</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-1"></div>
+			
+			<div class="col-9">
+				Напишите нам прямо сейчас
+						<style>
+							.message-bubble 
+							{
+								padding: 10px 0px 10px 0px;
+							}
+
+							.message-bubble:nth-child(even) { background-color: #F5F5F5; }
+
+							.message-bubble > *
+							{
+								padding-left: 10px;    
+							}
+
+							.panel-body { padding: 0px; }
+
+							.panel-heading { background-color: #3d6da7 !important; color: white !important; }
+						</style>
+						
+						<div class="panel panel-default">
+						  <div class="panel-heading">Panel heading without title</div>
+						  <div class="panel-body">
+							<div class="container">
+								<div class="row message-bubble">
+								<p class="text-muted">Matt Townsen</p>
+									<span>Why is yo shit so broke?</span>
+								</div>
+								<div class="row message-bubble">
+									<p class="text-muted">Matt Townsen</p>
+									<p>It Isn't'</p>
+								</div>
+							</div>
+							<div class="panel-footer">
+								 <div class="input-group">
+								  <input type="text" class="form-control">
+								  <span class="input-group-btn">
+									<button class="btn btn-default" type="button">Отправить</button>
+								  </span>
+								</div>
+							</div>
+						  </div>
+						</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endblock %}
