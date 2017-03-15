@@ -20,6 +20,8 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    -webkit-clip-path:polygon(0 0, 0 100%, 100% 100%, 100% 100%, 100% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 90%, 100% 100%, 100% 0);
 }
 
 header > .overlay {
